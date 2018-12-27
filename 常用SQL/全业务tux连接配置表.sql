@@ -1,0 +1,4 @@
+SELECT *
+  FROM UCR_UIF2.UIP_TF_M_APPLICATION
+ WHERE     resvalue LIKE '%133%'
+       AND parentcode = 'CONNTUXEDOOUT'
